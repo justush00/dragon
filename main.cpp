@@ -7,13 +7,13 @@ int main(void)
     int steps=1; //count repetitions
     int n=0;
     int m=0;
-    int counto[128];
-    int countn[128];
+    int counto[512];
+    int countn[512];
     //init counto and count n with 0 and the rest with 4
     //4 is terminating char
     cout << "enter steps! : ";
     cin >> steps;
-    for(int c=0; c<128; c++)
+    for(int c=0; c<512; c++)
     {
         countn[c] = 4;
     }
@@ -30,7 +30,7 @@ int main(void)
         //do while steps not reached yet
         cout << "loop" << endl;
         //convert new to old
-            for(int c=0; c<128; c++)
+            for(int c=0; c<512; c++)
             {
                 counto[c] = countn[c];
             }
@@ -68,7 +68,7 @@ int main(void)
         }while(counto[n] != 4);
     }
     
-    for(int c=0; c<128; c++)
+    for(int c=0; c<512; c++)
     {
         cout << counto[c];
     }
