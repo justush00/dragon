@@ -1,0 +1,13 @@
+f
+
++: L
+-: R
+F: f+h 
+H: f-h
+
+0: f
+1: f+h                             R
+2: f+h+f-h                         RRL
+3: f+h+f-h+f+h-f-h                 RRLRRLL
+4: f+h+f-h+f+h-f-h+f+h+f-h-f+h-f-h RRLRRLLRRRLLRLL
+
